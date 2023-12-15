@@ -38,7 +38,7 @@
                             <mode>development</mode>
                             <url>${project.url}</url>
                             <key>value</key>
-                            <Premain-Class>com.penta.MyAgent</Premain-Class>
+                            <Premain-Class>com.penta.agent.MyAgent</Premain-Class>
                             <Can-Redefine-Classes>true</Can-Redefine-Classes>
                             <Can-Retransform-Classes>true</Can-Retransform-Classes>
                         </manifestEntries>

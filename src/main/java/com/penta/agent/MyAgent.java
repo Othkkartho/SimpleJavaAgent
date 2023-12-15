@@ -1,4 +1,4 @@
-package com.penta;
+package com.penta.agent;
 
 import net.bytebuddy.agent.builder.AgentBuilder;
 import net.bytebuddy.implementation.MethodDelegation;
