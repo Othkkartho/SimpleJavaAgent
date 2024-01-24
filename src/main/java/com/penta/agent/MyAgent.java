@@ -11,7 +11,7 @@ import java.util.concurrent.Callable;
 import static net.bytebuddy.matcher.ElementMatchers.named;
 
 public class MyAgent {
-    // JavaAgent를 로딩할 때 필요한 메서드, JavaAgent는 ClassLoad 시점에 실행
+    // JavaAgent를 로딩할 때 필요한 메서드, JavaAgent는 ClassLoad 시점에 실행 즉, main 메소드를 시작하기 전에 호출
     public static void premain(String agentArgs, Instrumentation inst) {
         new AgentBuilder.Default()              // 클래스의 변형을 위한 빌더 클래스
                 .type(ElementMatchers.any())    // 모든 타입에 대한 변형 지정
